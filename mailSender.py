@@ -3,7 +3,7 @@ ob =s.SMTP("smtp.gmail.com",587)
 
 ob.starttls()
 
-ob.login("shuvrasankha.sp@gmail.com","9832781388")
+ob.login("email_id","password")
 subject="Sending using python"
 body="Hello , this is Shuvrasankha . !!!!"
 
